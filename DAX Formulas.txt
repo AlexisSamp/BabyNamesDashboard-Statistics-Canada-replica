@@ -1,0 +1,31 @@
+Chart Display = 
+IF(
+    SELECTEDVALUE(Parameter[Parameter Order]) = 0, 
+    "Frequency for " & LOWER(SELECTEDVALUE('Baby Names'[Sex at birth])) & " name " & SELECTEDVALUE('Baby Names'[First name at birth]),
+    IF(
+        SELECTEDVALUE(Parameter[Parameter Order]) = 1, 
+        "Proportion (%) for " & LOWER(SELECTEDVALUE('Baby Names'[Sex at birth])) & " name " & SELECTEDVALUE('Baby Names'[First name at birth]),
+       IF (
+            SELECTEDVALUE(Parameter[Parameter Order]) = 2, 
+            "Rank for " & LOWER(SELECTEDVALUE('Baby Names'[Sex at birth])) & " name " & SELECTEDVALUE('Baby Names'[First name at birth]))))
+
+Display Year = "Top 20 baby names in " & SELECTEDVALUE('Baby Names'[Year])
+
+Latest Reference = 
+IF(
+    'Baby Names'[Year] = CALCULATE(MAX('Baby Names'[Year]), ALL('Baby Names')),
+    CONCATENATE(CONCATENATE("Latest reference period (", 'Baby Names'[Year]), ")"),('Baby Names'[Year]))
+
+Frequency Measure = IF(ISBLANK(SUM('Baby Names'[Frequency])), 0, SUM('Baby Names'[Frequency]))
+
+Frequency Aggregate = SUM('Baby Names'[Frequency])
+
+Proportion Aggregate = SUM('Baby Names'[Proportion (%)])
+
+Rank Aggregate = SUM('Baby Names'[Rank])
+
+Parameter = {
+    ("Frequency ", NAMEOF('Baby Names'[Frequency Aggregate]), 0),
+    ("Proportion (%)", NAMEOF('Baby Names'[Proportion Aggregate]), 1),
+    ("Rank ", NAMEOF('Baby Names'[Rank Aggregate]), 2)
+}
