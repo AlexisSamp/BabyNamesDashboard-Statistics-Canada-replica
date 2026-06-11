@@ -9,6 +9,7 @@ The dashboard enables users to explore name popularity trends over time, compare
 ![Dynamic Metric Selection](metric-selection.PNG)
 ## Objective
 The objective of this project was to recreate the functionality of the Statistics Canada Baby Names Observatory while applying data modeling, transformation, and business intelligence techniques in Power BI.
+
 Key objectives include: 
 * Transforming raw government data into a cleaned data set using Power Query (ETL process)
 * Designing a scalable data model to support time-series and demographic analysis
