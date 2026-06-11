@@ -1,8 +1,12 @@
 # A Replica of Statistics Canada Baby Names Dashbaord
 ## Overview 
-This project recreates the Statistics Canada Baby Names Observatory dashboard using publicly available raw data from Statistics Canada birth name records from 1991-2024. Both the original dashboard and data can be found HERE.
+This project recreates the Statistics Canada Baby Names Observatory dashboard using publicly available raw data from Statistics Canada birth name records from 1991-2024. Both the original dashboard and data can be found [HERE](https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2023021-eng.htm)
 
 The dashboard enables users to explore name popularity trends over time, compare rankings by gender, and analyze frequency and proportion metrics through dynamic filtering and interactive visuals.
+## Dashboard preview
+![Main Dashboard](Dashboard Overview.png)
+## Dynamic Metric Selection
+![Main Dashboard](Metric Selection.png)
 ## Objective
 The objective of this project was to recreate the functionality of the Statistics Canada Baby Names Observatory while applying data modeling, transformation, and business intelligence techniques in Power BI.
 Key objectives include: 
