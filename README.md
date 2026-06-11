@@ -71,3 +71,4 @@ The data was cleaned and transformed in Power Query Editor to create an analysis
 ## Contact
 alexisdsamp@gmail.com
 
+*Built as part of a data analytics portfolio focused on Power BI, SQL, and business intelligence development.*
