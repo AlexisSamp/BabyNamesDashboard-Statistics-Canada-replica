@@ -32,24 +32,27 @@ Key objectives include:
 ## Data Cleaning With Power Query
 The data was cleaned and transformed in Power Query Editor to create an analysis-ready data model:
 
-* Selected relevant fields:
-- Year (REF_DATE)
-- Sex at birth
-- First name at birth
-- Indicator
-- VALUE
-* Standardized categorical values:
-- “Male” replaced as “Boy”
-- “Female” replaced as “Girl”
-* Normalized name formatting using Capitalize Each Word
-* Pivoted the dataset on Indicator to separate:
-- Frequency
-- Rank
-- Proportion (%)
-* Applied correct data types:
-- Frequency & Rank → Whole numbers
-- Proportion (%) → Decimal number
-* Renamed REF_DATE → Year
+- Selected relevant fields:
+  - Year (REF_DATE)
+  - Sex at birth
+  - First name at birth
+  - Indicator
+  - VALUE
+
+- Standardized categorical values:
+  - “Male” replaced with “Boy”
+  - “Female” replaced with “Girl”
+
+- Normalized name formatting by capitalizing each name
+
+- Pivoted dataset on Indicator to separate:
+  - Frequency
+  - Rank
+  - Proportion (%)
+
+- Applied correct data types:
+  - Frequency & Rank set as Whole numbers
+  - Proportion (%) set as Decimal numbers
 
 ## Dashboard Features
 * Interactive slicers for Year, Name (search-enabled), and Sex at birth 
