@@ -4,9 +4,9 @@ This project recreates the Statistics Canada Baby Names Observatory dashboard us
 
 The dashboard enables users to explore name popularity trends over time, compare rankings by gender, and analyze frequency and proportion metrics through dynamic filtering and interactive visuals.
 ## Dashboard preview
-![Main Dashboard](/Dashboard Overview.png)
+![Main Dashboard](Dashboard%20Overview.png)
 ## Dynamic Metric Selection
-![Main Dashboard](/Metric Selection.png)
+![Dynamic Metric Selection](Metric%20Selection.png)
 ## Objective
 The objective of this project was to recreate the functionality of the Statistics Canada Baby Names Observatory while applying data modeling, transformation, and business intelligence techniques in Power BI.
 Key objectives include: 
