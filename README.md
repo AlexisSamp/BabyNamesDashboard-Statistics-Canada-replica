@@ -62,9 +62,12 @@ The data was cleaned and transformed in Power Query Editor to create an analysis
 * Dynamic titles and text responding to filter context
 * Controlled visualization interactions for improved usability and clarity
 
-  ## Key Learning Outcomes
+## Key Learning Outcomes
 * Built an end-to-end BI pipeline from raw government data to interactive dashboard
 * Applied ETL principles and improved data modeling and transformation skills using Power Query
 * Strengthened DAX proficiency for dynamic measures
 * Developed experience in dashboard UX design and storytelling with data
+
+## Contact
+alexisdsamp@gmail.com
 
