@@ -1,4 +1,4 @@
-# A Replica of Statistics Canada Baby Names Dashbaord
+# A Replica of Statistics Canada Baby Names Dashboard
 ## Overview 
 This project recreates the Statistics Canada Baby Names Observatory dashboard using publicly available raw data from Statistics Canada birth name records from 1991-2024. Both the original dashboard and data can be found [here](https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2023021-eng.htm)
 
